@@ -1,0 +1,143 @@
+/* Общий стиль страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Стиль для шапки */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0056b3;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Основной контент */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Секции */
+section {
+    margin-bottom: 30px;
+}
+
+/* Заголовки с рамкой */
+section h2 {
+    color: #007BFF;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Текст под рамками (увеличен) */
+section p {
+    font-size: 1.2em; /* Увеличенный шрифт */
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Стили для списка навыков */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.2em; /* Увеличенный шрифт */
+}
+
+/* Портфолио */
+#portfolio {
+    text-align: center;
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+    font-size: 1.2em; /* Увеличенный шрифт */
+    color: #555;
+    text-align: center;
+}
+
+/* Контакты */
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Футер */
+footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Telegram ник внизу */
+footer .telegram {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
